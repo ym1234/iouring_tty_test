@@ -1,0 +1,3 @@
+It's slower :/
+iouring: 250-350 MiB/s
+blocking read loop: 400-500 MiB/s
