@@ -2,5 +2,8 @@ It's slower :/
 iouring: 250-350 MiB/s
 blocking read loop: 400-500 MiB/s
 
+compile:
+gcc -g -funroll-all-loops -O2 main.c
+
 Run tests with ./executable bash -c "pv -f /tmp/1gbfile 2> /tmp/out"
 and watch with tail -F /tmp/out from another terminal
